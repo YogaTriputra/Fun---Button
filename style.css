@@ -1,0 +1,119 @@
+body{
+    text-align: center;
+    background-color: #d79898;
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+    padding: 20px;
+    margin: 0;
+}
+
+.btn-container {
+    margin-top: 20px;
+}
+
+.btn-iya{
+    font-family: 'Press Start 2P', cursive;
+    padding: 15px 20px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #913434;
+    box-shadow: 0 8px 15px rgba(255, 255, 255, 0.2);
+    
+}
+
+.btn-iya:hover{
+    background-color: #913434;
+    color: #fff;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(187, 18, 52, 0.2);
+}
+
+.btn-kabur{
+    font-family: 'Press Start 2P', cursive;
+    padding: 15px 20px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #913434;
+    position: absolute;
+}
+
+.btn-kabur:hover{
+    background-color: #913434;
+    color: #fff;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(187, 18, 52, 0.2);
+}
+
+
+/* Mobile Phones (up to 600px) */
+@media only screen and (max-width: 600px) {
+    .btn-iya {
+        font-size: 15px;
+        margin: 10px; /* Reduced margin for mobile */
+    }
+
+    .btn-kabur {
+        font-size: 15px;
+        margin: 10px; /* Reduced margin for mobile */
+        position: relative; /* Make it flow naturally on mobile initially */
+    }
+
+    .btn-container {
+        display: flex; /* Activate flexbox */
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        margin: auto; 
+    }
+}
+
+.form{
+    margin-top: 15px;
+}
+
+.form input{
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    color:#913434;
+    background-color: #f9dfdf;
+    font-size: 15;
+}
+
+.form button{
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    color:#ececec;
+    background-color: #913434;
+}
+
+.form button:hover{
+    background-color: #da4343;
+    color: #fff;
+    box-shadow: 0 8px 15px rgba(187, 18, 52, 0.2);
+}
+
+
+
